@@ -85,7 +85,7 @@ python manage.py runserver
 
 ### Примеры запросов:
 
-<span style="color:green">Получить список всех постов:</span>
+**Получить список всех постов:**
 
 ```
 GET /api/v1/posts/
