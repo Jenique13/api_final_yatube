@@ -19,13 +19,6 @@ API Yatube позволяет публиковать пользователям 
 
 ## Библиотеки и версии
 
-Django                          | 3.2.16
-djangorestframework             | 3.12.4
-djangorestframework-simplejwt   | 4.7.2
-Pillow                          | 9.3.0
-PyJWT                           | 2.1.0
-requests                        | 2.26.0
-isort                           | 5.12.0
 ```
 Django==3.2.16
 djangorestframework==3.12.4
