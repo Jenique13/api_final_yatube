@@ -31,7 +31,7 @@ isort==5.12.0
 
 ## Запуск проекта
 
-### Клонировать репозиторий
+### Клонировать репозиторий:
 
 ```
 git clone git@github.com:
@@ -53,7 +53,7 @@ source venv/scripts/activate
 source env/bin/activate
 ```
 
-### Обновить менеджер пакетов pip
+### Обновить менеджер пакетов pip:
 
 ```
 python -m pip install --upgrade pip
@@ -83,7 +83,7 @@ http://127.0.0.1:8000/redoc/
 python manage.py runserver
 ```
 
-### Примеры запросов:
+### Примеры запросов
 
 Получить список всех постов:
 ```
