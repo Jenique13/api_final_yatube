@@ -19,6 +19,13 @@ API Yatube позволяет публиковать пользователям 
 
 ## Библиотеки и версии
 
+Django                          | 3.2.16
+djangorestframework             | 3.12.4
+djangorestframework-simplejwt   | 4.7.2
+Pillow                          | 9.3.0
+PyJWT                           | 2.1.0
+requests                        | 2.26.0
+isort                           | 5.12.0
 ```
 Django==3.2.16
 djangorestframework==3.12.4
@@ -85,37 +92,36 @@ python manage.py runserver
 
 ### Примеры запросов:
 
-**Получить список всех постов:**
-
+Получить список всех постов:
 ```
 GET /api/v1/posts/
 ```
 
-<font color="yellow">Добавление нового поста:</font>
+Добавление нового поста:
 ```
 POST /api/v1/posts/
 ```
 
-<font color="green">Получить список всех групп:</font>
+Получить список всех групп:
 ```
 GET /api/v1/groups/
 ```
 
-<font color="yellow">Добавление нового комментария:</font>
+Добавление нового комментария:
 ```
 POST /api/v1/posts/{post_id}/comments/
 ```
-<font color="orange">Удаление комментария по id:</font>
+Удаление комментария по id:
 ```
 DELETE /api/v1/posts/{post_id}/comments/{id}/
 ```
 
-<font color="green">Получение списока подписок:</font>
+Получение списока подписок:
 ```
 GET /api/v1/follow/
 ```
 
-<font color="yellow">Подписка пользователя на пользователя переданного в запросе:</font>
+Подписка пользователя на пользователя переданного в запросе:
 ```
 POST /api/v1/follow/
 ```
